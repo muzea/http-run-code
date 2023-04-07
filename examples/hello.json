@@ -1,0 +1,14 @@
+{
+  "prerun": [],
+  "postrun": [],
+  "cmd": "go",
+  "args": ["run", "."],
+  "async": true,
+  "callbackUrl": "http://127.0.0.1:8080/echo",
+  "files": [
+    {
+      "name": "test.go",
+      "content": "package main\n\nimport \"fmt\"\n\nfunc main() {\n\nfmt.Println(\"hello world\")\n\n}"
+    }
+  ]
+}
